@@ -1,0 +1,61 @@
+@import 'fonts';
+@import 'variables';
+
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: $darkGrey;
+  font-size: 18px;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+#root, body, html {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+svg, textarea {
+  display: block;
+}
+
+button, input {
+  display: block;
+  background: none;
+  border: none;
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+input {
+  cursor: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  display: block;
+  font-family: inherit;
+}
+
