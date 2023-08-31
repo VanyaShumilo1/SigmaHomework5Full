@@ -100,9 +100,9 @@ const Cart = () => {
                 <div className={styles.cart__price}>
                     <div className={styles.cart__price_wrapper}>
                         <div className={styles.cart__price_item}>Total cost</div>
-                        <div className={styles.cart__price_item}>{totalCost}</div>
+                        <div className={styles.cart__price_item}>{totalCost}$</div>
                         <div className={styles.cart__price_item}>Discount</div>
-                        <div className={styles.cart__price_item}>{discount}</div>
+                        <div className={styles.cart__price_item}>{discount}$</div>
                     </div>
                 </div>
 
